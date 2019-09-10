@@ -1,4 +1,4 @@
-package lu.lllc.boottest;
+package com.sprintboot;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

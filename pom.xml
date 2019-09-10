@@ -3,13 +3,13 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>lu.lllc</groupId>
-	<artifactId>test4</artifactId>
+	<groupId>spring-boot</groupId>
+	<artifactId>file-processor</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>test4</name>
-	<description>Testproject for Spring Boot</description>
+	<name>file-processor</name>
+	<description>File processor for Spring Boot</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
@@ -35,6 +35,9 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
+
+
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-thymeleaf</artifactId>
@@ -50,12 +53,32 @@
 			<artifactId>camel-core</artifactId>
 			<version>2.17.3</version>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/commons-net/commons-net -->
+		<dependency>
+			<groupId>commons-net</groupId>
+			<artifactId>commons-net</artifactId>
+			<version>3.6</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-ftp -->
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-ftp</artifactId>
+			<version>2.24.1</version>
+
+		</dependency>
 
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-ftp</artifactId>
 			<version>2.17.3</version>
 		</dependency>
+
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20180813</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
@@ -72,3 +95,4 @@
 
 
 </project>
+

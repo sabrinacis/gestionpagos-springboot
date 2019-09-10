@@ -15,7 +15,7 @@
  * along with GiuseppeUrso-EU Software.  If not, see <http://www.gnu.org/licenses/>.
  * 
  */
-package lu.lllc.boottest.ftp;
+package com.sprintboot.ftp;
 
 import org.apache.camel.CamelContext;
 import org.apache.camel.impl.DefaultCamelContext;

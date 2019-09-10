@@ -1,4 +1,4 @@
-package lu.lllc.boottest;
+package com.sprintboot;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
